@@ -1,8 +1,8 @@
 # AllergySens-ML-Training
 ## Skin Allergy Detection 
 This model created as binary classification with 2 classes (non allergy, allergy). The model summary looks like:
-Model: "sequential"
 ```
+Model: "sequential"
 _________________________________________________________________
 Layer (type)--------------------Output Shape---------Param   
 _________________________________________________________________
