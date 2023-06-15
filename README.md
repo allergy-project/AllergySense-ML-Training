@@ -2,6 +2,7 @@
 ## Skin Allergy Detection 
 This model created as binary classification with 2 classes (non allergy, allergy). The model summary looks like:
 Model: "sequential"
+```
 _________________________________________________________________
 Layer (type)--------------------Output Shape---------Param   
 _________________________________________________________________
@@ -16,6 +17,7 @@ dense (Dense)-------------------(None, 512)----------819712
 dropout (Dropout)---------------(None, 512)----------0         
 dense_1 (Dense)-----------------(None, 2)------------1026      
 _________________________________________________________________
+```
 
 ## Allergy Type Classification
 This model create for identify allergy type from 'Class', 'Type', and 'Group' of food. Model created using KNeighborsClassification.
